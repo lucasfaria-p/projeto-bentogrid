@@ -1,0 +1,63 @@
+@charset "UTF-8";
+
+@media screen and (min-width:600px) {
+    main {
+        background-color: aquamarine;
+        width: 1400px;
+        margin: 200px auto;
+        
+
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 275px 1fr 1fr;
+        gap: 20px;
+    }
+
+    /* SOCIALMEDIA */
+
+    #socialmedia {
+        width: 500px;
+        height: 270px;
+
+        grid-row: 1 / 2;
+        grid-column: 2 / 3;
+    }
+
+    #socialmedia h1 {
+        width: 400px;
+        font-size: 50px;
+        line-height: 50px;
+        padding-top: 50px;
+    }
+
+    /* PLATFORMS */
+
+    #platforms {
+        width: 500px;
+        display: flex;
+        grid-row: 2 / 3;
+        grid-column: 2 / 3;
+    }
+
+    #platforms .manage {
+        border-radius: 10px;
+        height: 200px;
+        padding-bottom: 15pcx;
+    }
+
+    #platforms .manage p {
+        width: 140px;
+        font-size: 20px;
+    }
+
+    #platforms .maintain {
+        width: 300px;
+        height: 200px;
+    }
+
+    #platforms .maintain p {
+        width: 150px;
+        font-size: 20px;
+        padding-left: 20px;
+    }
+}
