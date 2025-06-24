@@ -3,13 +3,13 @@
 @media screen and (min-width:600px) {
     main {
         background-color: aquamarine;
-        width: 1400px;
+        width: 1100px;
         margin: 200px auto;
         
 
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
-        grid-template-rows: 275px 1fr 1fr;
+        grid-template-rows: 275px 200px 250px;
         gap: 20px;
     }
 
@@ -60,4 +60,106 @@
         font-size: 20px;
         padding-left: 20px;
     }
+
+    #platforms .maintain img {
+        object-fit: contain;
+        object-position: 20px 30px;
+        width: 200px;
+        height: 110px;
+
+        position: relative;
+        top: -35px;
+        left: -10px;
+    }
+
+    /* SCHEDULE */
+
+    #schedule {
+        grid-row: 1 / 2;
+        grid-column: 3 / 4;
+
+        height: 495px;
+    }
+
+    #schedule h2 {
+        text-align: left;
+        width: 190px;
+        font-size: 25px;
+        padding: 40px 0px 15px 30px;
+        font-weight: 500;
+    }
+
+    #schedule img {
+        object-position: 50px 0px;
+        width: 300px;
+
+
+        position:relative;
+        left: -20px;
+
+    }
+
+    #schedule p {
+        text-align: left;
+        width: 180px;
+    }
+
+    /* GROW */
+    
+    #grow {
+        display: flex;
+        grid-row: 3 / 4;
+        grid-column: 2 / 4;
+        width: 800px;
+        
+    }
+
+    #grow .content {
+        width:600px;
+        height: 250px;
+        order: 2;
+    }
+
+    #grow .content img {
+        width: 220px;
+        height: 250px;
+        position: relative;
+        left: -130px;
+    }
+
+    #grow .content p {
+        position: relative;
+        top: -190px;
+        left: 120px;
+
+        font-size: 30px;
+        text-align: left;
+        width: 220px;
+    }
+
+    #grow .faster {
+        width: 320px;
+        order: 1;
+
+        padding-left: 20px;
+    }
+
+    #grow .faster .numero {
+        font-size: 45px;
+        padding-top: 20px;
+    }
+
+    #grow .faster .audience {
+        padding-top: 10px;
+        padding-bottom: 35px;
+    }
+
+    #grow .faster img {
+        width: 200px;
+    }
+
+    /* CREATE */
+
+    
+
 }
