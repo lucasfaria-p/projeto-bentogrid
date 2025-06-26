@@ -2,7 +2,6 @@
 
 @media screen and (min-width:1100px) {
     main {
-        background-color: aquamarine;
         width: 1100px;
         margin: 200px auto;
         
@@ -160,6 +159,34 @@
 
     /* CREATE */
 
+    #create .quicker {
+        padding-bottom: 10px;
+    }
 
+    #create .quicker p {
+        width: 200px;
+        font-size: 30px;
+        font-weight: 500;
+    }
+
+    #create .quicker img {
+        width: 200px;
+    }
+
+    #create .write {
+        height: 432px;
+    }
+
+    #create .write p {
+        width: 200px;
+        font-size: 30px;
+        padding-left: 30px;
+        padding-bottom: 50px;
+    }
+
+    #create .write img {
+        width: 260px;
+        padding-left: 30px;
+    }
 
 }
